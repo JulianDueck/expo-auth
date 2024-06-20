@@ -25,7 +25,7 @@ export default function AuthContent({
     if (isLogin) {
       router.replace("/signup");
     } else {
-      router.replace("/");
+      router.replace("/login");
     }
   }
 
